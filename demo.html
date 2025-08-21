@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layout Preview</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    /* shared centered container */
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    /* HEADER */
+    .site-header {
+      background: #fff;
+      border-bottom: 1px solid #eee;
+    }
+    .site-header .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+    }
+    .logo {
+      height: 50px;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* MAIN */
+    .site-main {
+      background: #fff;
+      padding: 2rem 0;
+    }
+
+    /* FOOTER */
+    .site-footer {
+      background: #1f4870;
+      color: #fff;
+      padding: 2rem 1rem;
+      width: 100%;
+    }
+    .site-footer .container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <img src="https://www.nummerplade.net/images/logo-nummerplade-net.png" alt="Logo" class="logo" />
+      <nav>
+        <ul>
+          <li>Information</li>
+          <li>Menu</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      <h1>Search Section</h1>
+      <p>Here would go your search bar, tabs and content (like Hyundai I20 info).</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <h3>Informationer</h3>
+        <ul>
+          <li>Restgæld</li>
+          <li>BilBogen</li>
+          <li>Synsrapporter</li>
+          <li>Kilometertal</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Om Nummerplade.net</h3>
+        <ul>
+          <li>info@nummerplade.net</li>
+          <li>Presse</li>
+          <li>Cookie- og privatlivspolitik</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

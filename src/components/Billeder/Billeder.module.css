@@ -1,0 +1,16 @@
+.h2{
+    height: 2em;
+    font-size: 2em;
+    width: 5em;
+    color: #0060BB;
+    font-weight: 500;
+}
+
+.BillederContainer{
+    padding-top: 2em; 
+}
+
+.BillederContainer img{
+    height: 25em;
+    width: 40em;
+}

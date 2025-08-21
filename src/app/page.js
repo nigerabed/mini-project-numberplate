@@ -1,15 +1,14 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+
+import Main from "@/components/Main/Main";
+import Billeder from "@/components/Billeder/Billeder";
 
 export default function Home() {
   return (
-    <div >
-      <main >
-      
-      </main>
-      <footer>
-        
-      </footer>
-    </div>
+    < >
+       
+  {/* <Main />
+  <Billeder /> */}
+     
+    </>
   );
 }

@@ -1,0 +1,13 @@
+.siteHeader {
+      background: #fff; 
+    }
+.siteHeader .headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.logo {
+  height: 50px;
+}
+   

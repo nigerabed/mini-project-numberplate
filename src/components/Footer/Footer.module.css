@@ -1,0 +1,47 @@
+.footer{ 
+     background: #1f4870;
+      color: #fff;
+      padding: 2rem 1rem;
+      width: 100%;
+}
+
+.footerLinksContainer{
+    display: flex;
+}
+
+.footerContainer{
+
+    display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  
+}
+
+.footerLinksContainer ul li{
+    list-style-type: none;
+}
+
+.footerLinksContainer ul li a{
+     font-size: .8em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footerLinksContainer ul h4{
+    margin-bottom: 1em;
+}
+.footerSvg{
+    height: 2em;
+    width: 2em;
+    fill: aliceblue;
+}
+
+.informationUl{
+    margin-right: 5em;
+}
+
+.footerSvgBox{
+    padding-right: 10em;
+}

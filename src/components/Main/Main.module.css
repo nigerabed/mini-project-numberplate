@@ -1,0 +1,26 @@
+.main{
+   
+    padding-top: 2em; 
+    
+  min-height: 300px;
+}
+
+.btn{
+    padding: .6em;
+    border-radius: 7px;
+    border: 2px solid rgb(185, 183, 183);
+    margin-right: 1em;
+    font-size:small;
+    background-color: gray;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.carDetailsContainer{
+    width: 70%;
+}
+
+.fullCarDetails{
+    display: flex;
+    justify-content: space-between;
+}

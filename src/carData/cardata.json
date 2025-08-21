@@ -1,0 +1,52 @@
+[
+  {
+    "plate": "AB12345",
+    "model": "Toyota Corolla",
+    "fuel": "Benzin",
+    "consumption": "19 km/l",
+    "euronorm": "Euro V",
+    "insurance": "Tryg Forsikring",
+    "annualTax": "1500 kr",
+    "taxType": "Grøn ejerafgift"
+  },
+  {
+    "plate": "1111111",
+    "model": "BMW X5",
+    "fuel": "Diesel",
+    "consumption": "14 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "If Forsikring",
+    "annualTax": "2500 kr",
+    "taxType": "Grøn ejerafgift"
+  },
+  {
+    "plate": "EF24680",
+    "model": "Tesla Model 3",
+    "fuel": "El",
+    "consumption": "15 kWh/100 km",
+    "euronorm": "Euro VI",
+    "insurance": "Gjensidige",
+    "annualTax": "340 kr",
+    "taxType": "Elbil afgift"
+  },
+  {
+    "plate": "GH13579",
+    "model": "Volkswagen Golf",
+    "fuel": "Benzin",
+    "consumption": "18 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Topdanmark",
+    "annualTax": "1200 kr",
+    "taxType": "Grøn ejerafgift"
+  },
+  {
+    "plate": "JK11223",
+    "model": "Audi A4",
+    "fuel": "Diesel",
+    "consumption": "16 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Alm. Brand",
+    "annualTax": "2200 kr",
+    "taxType": "Grøn ejerafgift"
+  }
+]
