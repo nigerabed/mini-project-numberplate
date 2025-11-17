@@ -9,8 +9,6 @@ export default function Main({car}){
     return(
          <main className={styles.main}>
              <div className={`container`} >
-cxsdsdsdsadadsadasda
-            
              <div>
                 <button className={styles.btn}>Overblik</button>
                 <button className={styles.btn}>Statistic</button>
@@ -19,7 +17,7 @@ cxsdsdsdsadadsadasda
                 <CarDetails carData= {car} />
                 <Overblik carData= {car}/>
             </div>
-            <Billeder />
+            <Billeder carData={car} />
              </div>
         </main>
     )

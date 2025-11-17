@@ -2,8 +2,7 @@
 import styles from "./Details.module.css"
 // import carData from "../../carData/cardata.json"
 export default function CarDetails({carData}) {
-  console.log("carData", carData);
-  
+   
   return (
     <>
     <section className={styles.CarDetailsSection}>
