@@ -1,0 +1,222 @@
+[
+  {
+    "plate": "AB12345",
+    "model": "Toyota Corolla",
+    "fuel": "Benzin",
+    "consumption": "19 km/l",
+    "euronorm": "Euro V",
+    "insurance": "Tryg Forsikring",
+    "annualTax": "1500 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1623869675781-80aa31012a5a?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "JW35108",
+    "model": "BMW X5",
+    "fuel": "Diesel",
+    "consumption": "14 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "If Forsikring",
+    "annualTax": "2500 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "EF24680",
+    "model": "Tesla Model 3",
+    "fuel": "El",
+    "consumption": "15 kWh/100 km",
+    "euronorm": "Euro VI",
+    "insurance": "Gjensidige",
+    "annualTax": "340 kr",
+    "taxType": "Elbil afgift",
+    "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "GH13579",
+    "model": "Volkswagen Golf",
+    "fuel": "Benzin",
+    "consumption": "18 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Topdanmark",
+    "annualTax": "1200 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "JK11223",
+    "model": "Audi A4",
+    "fuel": "Diesel",
+    "consumption": "16 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Alm. Brand",
+    "annualTax": "2200 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1606016659476-94d9d27c8013?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "MN56789",
+    "model": "Mercedes-Benz C-Class",
+    "fuel": "Benzin",
+    "consumption": "17 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Tryg Forsikring",
+    "annualTax": "1800 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "PQ98765",
+    "model": "Volvo XC90",
+    "fuel": "Diesel",
+    "consumption": "13 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "If Forsikring",
+    "annualTax": "2800 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1549317336-206569e8475c?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "RS24681",
+    "model": "Ford Focus",
+    "fuel": "Benzin",
+    "consumption": "19 km/l",
+    "euronorm": "Euro V",
+    "insurance": "Gjensidige",
+    "annualTax": "1300 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "TU13579",
+    "model": "Nissan Leaf",
+    "fuel": "El",
+    "consumption": "18 kWh/100 km",
+    "euronorm": "Euro VI",
+    "insurance": "Topdanmark",
+    "annualTax": "340 kr",
+    "taxType": "Elbil afgift",
+    "image": "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "VW86420",
+    "model": "Skoda Octavia",
+    "fuel": "Diesel",
+    "consumption": "20 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Alm. Brand",
+    "annualTax": "2000 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "XY74125",
+    "model": "Peugeot 308",
+    "fuel": "Benzin",
+    "consumption": "18 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Tryg Forsikring",
+    "annualTax": "1400 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "ZA95173",
+    "model": "Hyundai Tucson",
+    "fuel": "Benzin",
+    "consumption": "15 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "If Forsikring",
+    "annualTax": "1900 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1494976688153-c13be5d87471?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "BC36925",
+    "model": "Kia Sportage",
+    "fuel": "Diesel",
+    "consumption": "17 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Gjensidige",
+    "annualTax": "2300 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "DE14785",
+    "model": "Honda Civic",
+    "fuel": "Benzin",
+    "consumption": "20 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Topdanmark",
+    "annualTax": "1100 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1617469165786-8007aea0c88e?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "FG52963",
+    "model": "Mazda CX-5",
+    "fuel": "Benzin",
+    "consumption": "16 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Alm. Brand",
+    "annualTax": "1700 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "HI78412",
+    "model": "Volkswagen Passat",
+    "fuel": "Diesel",
+    "consumption": "19 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Tryg Forsikring",
+    "annualTax": "2100 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "JL96384",
+    "model": "BMW 3 Series",
+    "fuel": "Benzin",
+    "consumption": "16 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "If Forsikring",
+    "annualTax": "1800 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "MO15739",
+    "model": "Audi Q5",
+    "fuel": "Diesel",
+    "consumption": "14 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Gjensidige",
+    "annualTax": "2600 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1606016659476-94d9d27c8013?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "PR84629",
+    "model": "Tesla Model Y",
+    "fuel": "El",
+    "consumption": "17 kWh/100 km",
+    "euronorm": "Euro VI",
+    "insurance": "Topdanmark",
+    "annualTax": "340 kr",
+    "taxType": "Elbil afgift",
+    "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800&h=600&fit=crop"
+  },
+  {
+    "plate": "ST73951",
+    "model": "Volvo V60",
+    "fuel": "Diesel",
+    "consumption": "18 km/l",
+    "euronorm": "Euro VI",
+    "insurance": "Alm. Brand",
+    "annualTax": "2000 kr",
+    "taxType": "Grøn ejerafgift",
+    "image": "https://images.unsplash.com/photo-1549317336-206569e8475c?w=800&h=600&fit=crop"
+  }
+]
