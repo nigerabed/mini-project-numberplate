@@ -1,17 +1,81 @@
+.searchContainer {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 2rem 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.searchContainerNoBg {
+  padding: 2rem 0;
+}
+
+.resultsSection {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.resultsTitle {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  padding: 2rem 0 0;
+  font-weight: 600;
+}
+
+.clearButton {
+  background: #6c757d;
+  border: none;
+  color: white;
+  padding: 0.8em 1.5em;
+  font-weight: 500;
+  font-size: 0.9em;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.clearButton:hover {
+  background: #5a6268;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(108, 117, 125, 0.3);
+}
+
 .searchInput {
   width: 100%;
-  padding: 1em;
+  max-width: 400px;
+  padding: 1.2em 1.5em;
   font-weight: 400;
-  font-size: 1em;
-  border: 1.5px solid rgb(164, 163, 163);
-  border-radius: 5px;
+  font-size: 1.1em;
+  border: 2px solid #e9ecef;
+  border-radius: 50px;
+  background: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #0060BB;
+  box-shadow: 0 4px 20px rgba(0, 96, 187, 0.15);
+  transform: translateY(-2px);
+}
+
+.searchInput::placeholder {
+  color: #999;
+  font-style: italic;
 }
 
 .form {
   display: flex;
   justify-content: center;
-  align-items: center; 
-  margin: auto;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 /* .button {
@@ -25,45 +89,50 @@
 } */
 
 .button {
-  background-color: #67c08e;
-  border-color: #67c08e;
+  background: linear-gradient(135deg, #0060BB 0%, #004A94 100%);
+  border: none;
   color: white;
-  border: 0.5px solid rgb(243, 238, 238);
-  padding: 1em;
+  padding: 1.2em 2em;
   font-weight: 600;
-  font-size: 1em;
-  border-radius: 5px;
+  font-size: 1.1em;
+  border-radius: 50px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 96, 187, 0.3);
+  white-space: nowrap;
 }
 
 .button:hover {
-  background-color: #005bb5; /* darker blue on hover */
-  transform: translateY(-2px); /* subtle lift effect */
+  background: linear-gradient(135deg, #005bb5 0%, #003d7a 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 96, 187, 0.4);
 }
 
 .button:active {
-  transform: translateY(0); /* reset when pressed */
+  transform: translateY(-1px);
 }
 
 .button:disabled {
-  background-color: #cccccc; /* gray */
+  background: #cccccc;
   color: #666666;
   cursor: not-allowed;
-  transform: none; /* no hover effect */
+  transform: none;
+  box-shadow: none;
 }
 
 .message {
-  /* margin-top: 1rem; */
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  font-size: 0.95rem;
+  margin: 1rem auto 0;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1rem;
   font-weight: 500;
   text-align: center;
-  background-color: #ffe5e5; /* light red background */
-  color: #b30000; /* dark red text */
-  border: 1px solid #ff9999; /* subtle border */
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeaa7;
   animation: fadeIn 0.3s ease-in-out;
+  max-width: 600px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 /* Optional: simple fade-in animation */
@@ -78,26 +147,45 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .form {
-    width: 90%; /* nearly full width */
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem;
   }
 
   .searchInput {
-    width: 100%;
-    padding: 0.9em;
-    font-size: 0.95em;
+    max-width: 100%;
+    padding: 1em 1.2em;
+    font-size: 1em;
   }
 
   .button {
-    width: 100%; /* button spans full width */
-    padding: 0.9em;
-    font-size: 0.95em;
-    background-color: #67c08e;
-    border-color: #67c08e;
+    width: 100%;
+    max-width: 400px;
+    padding: 1em 2em;
+    font-size: 1em;
   }
+  
   .message {
-    font-size: 0.9rem;
-    padding: 0.6rem 0.8rem;
+    font-size: 0.95rem;
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 1rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .searchContainer {
+    padding: 1.5rem 0;
+  }
+  
+  .searchInput {
+    padding: 1em;
+    font-size: 0.95em;
+  }
+  
+  .button {
+    padding: 1em 1.5em;
+    font-size: 0.95em;
   }
 }

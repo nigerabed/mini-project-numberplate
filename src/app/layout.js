@@ -25,7 +25,6 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <Search />
-        
         {children}
         <Footer />
       </body>
