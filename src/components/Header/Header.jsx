@@ -19,13 +19,9 @@ export default function Header() {
     return (
         <header className={styles.siteHeader}>
             <div className={`container ${styles.headerContainer}`}>
-                <Link href="/" className={styles.logoLink} onClick={closeMenu}>
-                    <img 
-                        src="https://www.nummerplade.net/images/logo-nummerplade-net.png" 
-                        alt="Nummerplade.net Logo" 
-                        className={styles.logo} 
-                    />
-                </Link>
+                    <Link href="/" className={styles.logoLink} onClick={closeMenu}>
+                        <span className={styles.textLogo}>Nummerplate<span className={styles.textLogoDot}>•</span>DK</span>
+                    </Link>
                 
                 <button 
                     className={`${styles.burgerMenu} ${isMenuOpen ? styles.open : ''}`}
