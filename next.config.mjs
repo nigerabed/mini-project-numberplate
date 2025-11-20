@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
-/** @type {import('next').NextConfig} */
 const nextConfig = {
- output: 'export',
- // Optional: Change the output directory (default is 'out')
- // distDir: 'dist',
+ // Removed 'output: export' to enable API routes
  images: {
-   unoptimized: true, // Required for static export
+   unoptimized: true,
  },
 }
 

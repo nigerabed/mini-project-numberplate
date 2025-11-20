@@ -3,14 +3,14 @@
 import { useState, useEffect } from "react";
 import styles from "./Search.module.css";
 import Main from "../Main/Main";
-import carData from "../../carData/cardata.json";
-import '../../app/globals.css'; // just import, no need to assign to a variable
+import '../../app/globals.css';
 
 
 export default function Search({ showBackground = true }) {
   const [searchedCarModel, setSearchedCarModel] = useState("");
   const [message, setMessage] = useState("");
   const [results, setResults] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
   // Hide/show hero and info sections based on search results
   useEffect(() => {
@@ -53,21 +53,40 @@ export default function Search({ showBackground = true }) {
     }
   }, [results]);
 
-  function handleSearchForm(e) {
+  async function handleSearchForm(e) {
     e.preventDefault();
 
-    const filtered = carData.filter(
-      (car) =>
-        car.plate.toLowerCase().includes(searchedCarModel.toLowerCase()) ||
-        car.model.toLowerCase().includes(searchedCarModel.toLowerCase())
-    );
-
-    if (filtered.length === 0) {
-      setMessage("No car found with that number plate or model.");
+    if (!searchedCarModel.trim()) {
+      setMessage("Please enter a number plate.");
       setResults([]);
-    } else {
-      setMessage("");
-      setResults(filtered);
+      return;
+    }
+
+    setIsLoading(true);
+    setMessage("");
+
+    try {
+      // Call backend API on port 5001
+      const response = await fetch(`http://localhost:5001/api/cars/search?q=${encodeURIComponent(searchedCarModel)}`);
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Search failed');
+      }
+
+      if (data.count === 0) {
+        setMessage("No car found with that number plate or model.");
+        setResults([]);
+      } else {
+        setMessage("");
+        setResults(data.data);
+      }
+    } catch (error) {
+      console.error('Search error:', error);
+      setMessage("Error searching for cars. Please try again.");
+      setResults([]);
+    } finally {
+      setIsLoading(false);
     }
   }
 
@@ -97,9 +116,9 @@ export default function Search({ showBackground = true }) {
           <button
             type="submit"
             className={styles.button}
-            disabled={searchedCarModel.trim().length !== 7} // disable if not 7
+            disabled={searchedCarModel.trim().length !== 7 || isLoading}
           >
-            Search
+            {isLoading ? 'Searching...' : 'Search'}
           </button>
         </form>
 

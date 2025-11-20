@@ -1,0 +1,6 @@
+🚀 Backend server running on http://localhost:5001
+📊 API endpoints:
+   GET  http://localhost:5001/api/cars
+   GET  http://localhost:5001/api/cars/search?q=BMW
+   GET  http://localhost:5001/api/cars/AB12345
+✅ Connected to MongoDB
